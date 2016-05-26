@@ -35,3 +35,5 @@ define(['dojo/_base/declare',
 
       });
   });
+  
+  // git pull test
