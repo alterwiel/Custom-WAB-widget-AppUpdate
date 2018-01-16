@@ -19,7 +19,11 @@ module.exports = function(grunt){
 				files: [
 				{
 					cwd: 'C:/ICT/Widgets/AppUpdate/trunk/',
-					src: ['**'],
+                    src: ['**',
+                        '!**/Gruntfile.js',
+                        '!**/startGrunt.bat',
+                        '!node_modules/**'
+                    ],
 					dest: localStemAppDir
 				},
                 // {
@@ -29,7 +33,11 @@ module.exports = function(grunt){
 				// }
                 {
 				    cwd: 'C:/ICT/Widgets/AppUpdate/trunk/',
-				    src: ['**'],
+                    src: ['**',
+                        '!**/Gruntfile.js',
+                        '!**/startGrunt.bat',
+                        '!node_modules/**'
+                    ],
 				    dest: localAppDir
 				}
 	]
